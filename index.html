@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Flashcard App</h1>
+
+  <div class="progress">
+    <span id="progress-text">Card 1 of 3</span>
+  </div>
+
+  <div class="flashcard-container">
+    <div class="flashcard">
+      <div class="front">Question</div>
+      <div class="back">Answer</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="prev" disabled>Previous</button>
+    <button id="next">Next</button>
+  </div>
+
+  <div class="answer-controls">
+    <button id="correct">✅ Correct</button>
+    <button id="incorrect">❌ Incorrect</button>
+  </div>
+
+  <div class="score">
+    Correct: <span id="correct-score">0</span> |
+    Incorrect: <span id="incorrect-score">0</span>
+  </div>
+
+  <button id="reset">🔄 Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
