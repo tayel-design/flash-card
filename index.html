@@ -10,7 +10,11 @@
   <h1>Flashcard App</h1>
 
   <div class="progress">
-    <span id="progress-text">Card 1 of 3</span>
+    <span id="progress-text">Card 1 of 4</span>
+  </div>
+
+  <div class="progress-container">
+    <div id="progress-bar"></div>
   </div>
 
   <div class="flashcard-container">
@@ -21,14 +25,22 @@
   </div>
 
   <div class="controls">
-    <button id="prev" disabled>Previous</button>
-    <button id="next">Next</button>
+    <button id="prev" disabled>⏮️Previous</button>
+    <button id="next">⏭️Next</button>
+    <button id="random">🎲Random</button>
+    <button id="shuffle">🔀Shuffle</button>
   </div>
+
+  
+
 
   <div class="answer-controls">
     <button id="correct">✅ Correct</button>
     <button id="incorrect">❌ Incorrect</button>
   </div>
+ 
+    
+  
 
   <div class="score">
     Correct: <span id="correct-score">0</span> |
