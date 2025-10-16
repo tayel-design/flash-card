@@ -71,12 +71,44 @@ button
   background: #f44336;
   color: white;
 }
+#Random
+{
+  background: rgb(84, 84, 19);
+  color: white;
+}
 
 #reset {
   background: #2196f3;
   color: white;
 }
+.progress-container
+{
+  width: 80%;
+  background: #ccc;
+  height: 10px;
+  border-radius: 5px;
+  margin: 10px auto;
+  overflow: hidden;
 
+}
+#progress-bar
+{
+  width: 0%;
+  height: 100%;
+  background: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+
+#shuffle
+{
+  background: #531737;
+  color: white;
+}
+button:hover
+{
+  transform: scale(1.05);
+  transition: 0.2 ease;
+}
 
 
 
